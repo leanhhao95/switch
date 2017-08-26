@@ -6,4 +6,7 @@
 //  Copyright © 2017 thang. All rights reserved.
 //
 
-import Foundation
+import UIKit
+class manInChuDelegate : NSObject , UITableViewDelegate {
+    
+}

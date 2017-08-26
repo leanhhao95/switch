@@ -12,6 +12,12 @@
 		152ED6BB1F51126B004FC21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152ED6B91F51126B004FC21C /* Main.storyboard */; };
 		152ED6BD1F51126B004FC21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 152ED6BC1F51126B004FC21C /* Assets.xcassets */; };
 		152ED6C01F51126B004FC21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152ED6BE1F51126B004FC21C /* LaunchScreen.storyboard */; };
+		152ED6C81F5112BF004FC21C /* DemoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152ED6C71F5112BF004FC21C /* DemoDelegate.swift */; };
+		152ED6CA1F5112DF004FC21C /* manInChuDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152ED6C91F5112DF004FC21C /* manInChuDatasource.swift */; };
+		152ED6CC1F5112FF004FC21C /* manInSoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152ED6CB1F5112FF004FC21C /* manInSoDataSource.swift */; };
+		152ED6CE1F511422004FC21C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152ED6CD1F511422004FC21C /* CustomCell.swift */; };
+		152ED6D21F511B47004FC21C /* manInSoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152ED6D11F511B47004FC21C /* manInSoDelegate.swift */; };
+		152ED6D41F511EA5004FC21C /* manInChuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152ED6D31F511EA5004FC21C /* manInChuDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		152ED6BC1F51126B004FC21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		152ED6BF1F51126B004FC21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		152ED6C11F51126B004FC21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152ED6C71F5112BF004FC21C /* DemoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDelegate.swift; sourceTree = "<group>"; };
+		152ED6C91F5112DF004FC21C /* manInChuDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manInChuDatasource.swift; sourceTree = "<group>"; };
+		152ED6CB1F5112FF004FC21C /* manInSoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manInSoDataSource.swift; sourceTree = "<group>"; };
+		152ED6CD1F511422004FC21C /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		152ED6D11F511B47004FC21C /* manInSoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manInSoDelegate.swift; sourceTree = "<group>"; };
+		152ED6D31F511EA5004FC21C /* manInChuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manInChuDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 				152ED6B51F51126B004FC21C /* AppDelegate.swift */,
 				152ED6B71F51126B004FC21C /* ViewController.swift */,
 				152ED6B91F51126B004FC21C /* Main.storyboard */,
+				152ED6CD1F511422004FC21C /* CustomCell.swift */,
 				152ED6BC1F51126B004FC21C /* Assets.xcassets */,
 				152ED6BE1F51126B004FC21C /* LaunchScreen.storyboard */,
 				152ED6C11F51126B004FC21C /* Info.plist */,
+				152ED6C71F5112BF004FC21C /* DemoDelegate.swift */,
+				152ED6C91F5112DF004FC21C /* manInChuDatasource.swift */,
+				152ED6D31F511EA5004FC21C /* manInChuDelegate.swift */,
+				152ED6CB1F5112FF004FC21C /* manInSoDataSource.swift */,
+				152ED6D11F511B47004FC21C /* manInSoDelegate.swift */,
 			);
 			path = switch;
 			sourceTree = "<group>";
@@ -135,7 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152ED6CA1F5112DF004FC21C /* manInChuDatasource.swift in Sources */,
 				152ED6B81F51126B004FC21C /* ViewController.swift in Sources */,
+				152ED6CC1F5112FF004FC21C /* manInSoDataSource.swift in Sources */,
+				152ED6D21F511B47004FC21C /* manInSoDelegate.swift in Sources */,
+				152ED6C81F5112BF004FC21C /* DemoDelegate.swift in Sources */,
+				152ED6D41F511EA5004FC21C /* manInChuDelegate.swift in Sources */,
+				152ED6CE1F511422004FC21C /* CustomCell.swift in Sources */,
 				152ED6B61F51126B004FC21C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

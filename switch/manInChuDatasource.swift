@@ -8,7 +8,7 @@
 
 import UIKit
 
-class manInChu: NSObject, UITableViewDataSource, UITableViewDelegate {
+class manInChuDatasource : NSObject, UITableViewDataSource {
     
     var arrayString = ["anh" ,"anh" ,"anh" ,"anh" ,"anh" ,"anh" ,"anh" ,"anh" ,"anh" ,"anh" ]
     

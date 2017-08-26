@@ -15,20 +15,12 @@ class ViewController: UIViewController {
     var inSoDelegate = manInSoDelegate()
     
     @IBOutlet weak var myTableView: UITableView!
+    @IBOutlet weak var segment: UISegmentedControl!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-     
-            myTableView.dataSource = inChuDatasource
-            myTableView.delegate = inChuDelegate
-       
-            myTableView.delegate = inSoDelegate
-            myTableView.dataSource = inSoDatasource
-        
-       
-        
     }
 
 
@@ -36,9 +28,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    //Action
-    @IBAction func changedControl(_ sender: UISegmentedControl) {
-        
+    
+    @IBAction func selectTable(_ sender: Any) {
+        if segment.selectedSegmentIndex == 0 {
+            myTableView.dataSource = inChuDatasource
+        } else {
+            myTableView.dataSource = inSoDatasource
+        }
+        myTableView.reloadData()
     }
     
 }

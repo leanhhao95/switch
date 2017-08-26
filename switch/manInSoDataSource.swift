@@ -8,7 +8,7 @@
 
 import UIKit
 
-class manInSo: NSObject, UITableViewDataSource, UITableViewDelegate {
+class manInSoDataSource: NSObject, UITableViewDataSource {
     
     
     var arrayInt = [Int](1...10)
